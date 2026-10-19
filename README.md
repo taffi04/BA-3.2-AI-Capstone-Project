@@ -5,9 +5,9 @@ This AI with python based project breaks down the hypertension dataset using mac
 
 ##Files Included
 
-1. rough_draft_of_hypertension_coding.py — early prototype showing the flow of code and how everything will work.
-2. importing_dataset.py — imports the cleaned dataset into Python.
-3. separating.py — separates the input features and target variables.
+1. rough_draft_of_hypertension_coding.py — early prototype showing the flow of code and logic structure..
+2. importing_dataset.py — imports the cleaned dataset into Python, using pandas, display the sample rows, and prints dataset information.
+3. separating.py — separates the input features (X) and target variables (y) to prepare the date for training and testing.
 4. training.py - splits the data into training and testing feautures and assess model accuracy.
 5. suitable_algorithms.py — this code selects the suitable machine-learning algorithms.
 6. train_models.py — Tests the models using the test data.
