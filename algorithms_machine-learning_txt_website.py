@@ -130,7 +130,7 @@ for name, model in models.items():
     scores = cross_val_score(models["Random Forest"], X, y, cv=5, scoring="accuracy")
     print(f"{name} : Mean Accuracy = {scores.mean():.3f}, Scores = {scores}")
 
-#Step 13: Hyperparameter tuning with GridSearchCV (example for Random Forest)
+#Step 13: Hyperparameter adjustment using GridSearchCV for Random Forest.
 param_grid = {
     "n_estimators": [50, 100, 200],
     "max_depth": [None, 5, 10],
